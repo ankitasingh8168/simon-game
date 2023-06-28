@@ -1,0 +1,223 @@
+/* Media Query for Large screens */
+
+@media (min-width: 1280px) {
+  #level-title {
+    font-size: 3rem;
+  }
+
+  .myS {
+    right: 5%;
+    top: 30%;
+  }
+
+  .rule_container {
+    width: 700px;
+  }
+
+  .rule_box {
+    font-size: 1.5rem;
+  }
+
+  .game_btn {
+    width: 170px;
+    height: auto;
+    font-size: 1.5rem;
+    line-height: 1.4;
+  }
+
+  .rule_btn {
+    top: 30%;
+  }
+
+  .start_btn {
+    top: 65%;
+    height: 60px;
+  }
+
+  .important {
+    font-size: 1.6rem;
+  }
+
+  .btn {
+    height: 220px;
+    width: 220px;
+  }
+
+}
+
+/* Media Query for Laptops and Desktops */
+
+@media (max-width: 1280px) {
+
+  .myS {
+    right: 7%;
+    top: 14.5%;
+  }
+
+  .game_btn {
+    height: auto;
+  }
+
+  .rule_btn {
+    left: 5%;
+    top: 14.5%;
+  }
+
+  .start_btn {
+    left: 30%;
+    top: 14.5%;
+    height: 60px;
+  }
+
+  .rule_container {
+    left: 18%;
+  }
+
+  .container {
+    width: 70%;
+    margin-top: 200px;
+  }
+
+  .btn {
+    margin: 12px;
+  }
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+
+@media (max-width: 767px) {
+
+  #level-title {
+    font-size: 1.5rem;
+  }
+
+  .score {
+    font-size: 1rem;
+  }
+
+  .myS {
+    top: 18%;
+  }
+
+  .rule_container {
+    width: 360px;
+    left: 15%;
+  }
+
+  .game_btn {
+    font-size: 1rem;
+  }
+  
+  .rule_btn {
+    top: 17%;
+  }
+
+  .start_btn {
+    top: 27%;
+    height: 50px;
+  }
+
+  .rule_box {
+    font-size: 0.9rem;
+  }
+
+  .important {
+    font-size: 1rem;
+  }
+
+  .container {
+    width: 85%;
+    margin-top: 200px;
+  }
+
+  .btn {
+    height: 150px;
+    width: 150px;
+    border-width: 7px;
+  }
+}
+
+/* Media Query for Mobile Devices */
+
+@media only screen and (max-width: 480px) {
+  #level-title {
+    font-size: 1.2rem;
+  }
+
+  .score {
+    font-size: 0.7rem;
+  }
+
+  .myS {
+    top: 22%;
+    right: 37%;
+  }
+
+  .rule_container {
+    width: 230px;
+  }
+
+  .game_btn {
+    font-size: 0.7rem;
+    height: 40px;
+  }
+  
+  .rule_btn {
+    left: 27%;
+    top: 14%;
+  }
+
+  .start_btn {
+    left: 27%;
+    top: 25%;
+  }
+
+  .rule_box {
+    font-size: 0.7rem;
+  }
+
+  .important {
+    font-size: 0.8rem;
+  }
+
+  .container {
+    width: 90%;
+    margin-top: 230px;
+  }
+
+  .btn {
+    height: 70px;
+    width: 70px;
+    border-width: 3px;
+    margin: 5px;
+  }
+
+}
+
+/* Media Query for foldable Devices */
+
+@media only screen and (max-width: 350px) {
+  #level-title {
+    font-size: 1rem;
+  }
+
+  .myS {
+    right: 20%;
+  }
+  
+  .rule_btn {
+    left: 20%;
+  }
+
+  .start_btn {
+    left: 20%;
+  }
+
+  .rule_container {
+    width: 130px;
+  }
+
+  .rule_box {
+    font-size: 0.5rem;
+  }
+}
